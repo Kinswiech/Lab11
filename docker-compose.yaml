@@ -1,0 +1,9 @@
+services:
+  spark:
+    image: apache/spark:3.5.5
+    container_name: lab11-spark
+    user: root
+    working_dir: /opt/spark/work-dir
+    volumes:
+      - ./:/opt/spark/work-dir
+    command: sleep infinity

@@ -1,0 +1,4 @@
+event_time,user_id,category,amount,status
+2026-05-01 10:06:00,u004,clothes,89.99,paid
+2026-05-01 10:08:00,u005,books,49.99,paid
+2026-05-01 10:09:00,u006,electronics,599.99,paid
